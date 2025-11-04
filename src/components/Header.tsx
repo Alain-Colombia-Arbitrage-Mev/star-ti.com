@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useI18n } from "@/lib/i18n-context";
 import { languages, languageNames, type Language } from "@/config/i18n";
 
@@ -16,7 +16,6 @@ const LOGO = {
 export function Header() {
   const router = useRouter();
   const pathname = usePathname();
-  const searchParams = useSearchParams();
   const { lang, dictionary } = useI18n();
 
   const [menuOpen, setMenuOpen] = useState(false);
@@ -59,9 +58,8 @@ export function Header() {
 
     const normalized = pathname.replace(/^\/(es|en)(?=\/|$)/, "");
     const basePath = normalized === "" ? "" : normalized;
-    const query = searchParams.toString();
     const nextPath = `/${target}${basePath}` || `/${target}`;
-    router.push(`${nextPath}${query ? `?${query}` : ""}`);
+    router.push(nextPath);
     setLanguageOpen(false);
   };
 
