@@ -48,10 +48,30 @@ Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
 ### Build de Producción
 
+#### Para Cloudflare Pages:
+
 ```bash
-npm run build
-npm start
+npm run pages:build
 ```
+
+Esto genera los archivos en `.vercel/output/static/` listos para Cloudflare Pages.
+
+#### Preview local con Wrangler:
+
+```bash
+npm run preview
+```
+
+#### Deploy a Cloudflare Pages:
+
+```bash
+npm run deploy
+```
+
+O configura en Cloudflare Pages dashboard:
+- **Build command**: `npm run pages:build`
+- **Build output directory**: `.vercel/output/static`
+- **Node version**: `20.18.0`
 
 ### Lint
 

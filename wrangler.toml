@@ -1,0 +1,11 @@
+name = "star-ti-website"
+compatibility_date = "2024-11-04"
+pages_build_output_dir = ".vercel/output/static"
+
+[env.production]
+name = "star-ti-website"
+route = "star-ti.com/*"
+
+[env.production.vars]
+NODE_ENV = "production"
+
