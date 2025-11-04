@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Service Hero">
+  <defs>
+    <linearGradient id="s8" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#a855f7" offset="0"/>
+      <stop stop-color="#6b21a8" offset="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#s8)"/>
+  <g opacity="0.2" fill="#fff">
+    <rect x="280" y="120" width="320" height="180" rx="20"/>
+    <circle cx="920" cy="240" r="120"/>
+  </g>
+</svg>

@@ -1,0 +1,114 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cableado estructurado y fibra óptica">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="panelGradient" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+    <linearGradient id="cableGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="50%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#22D3EE" />
+    </linearGradient>
+    <linearGradient id="nodeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8" />
+      <stop offset="100%" stop-color="#60A5FA" />
+    </linearGradient>
+    <radialGradient id="glowGradient" cx="0.5" cy="0.5" r="0.66">
+      <stop offset="0%" stop-color="#BFDBFE" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0" />
+    </radialGradient>
+    <filter id="shadowSoft" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="14" result="blur" />
+      <feOffset dy="10" in="blur" result="offset" />
+      <feComposite in="offset" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="inner" />
+      <feBlend in="SourceGraphic" in2="inner" mode="normal" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" rx="56" fill="url(#bgGradient)" />
+
+  <g opacity="0.35">
+    <path d="M0 160 H1200" stroke="#C7D2FE" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round" stroke-dasharray="14 20" />
+    <path d="M0 320 H1200" stroke="#CBD5F5" stroke-opacity="0.45" stroke-width="2" stroke-linecap="round" stroke-dasharray="14 20" />
+    <path d="M0 480 H1200" stroke="#CBD5F5" stroke-opacity="0.45" stroke-width="2" stroke-linecap="round" stroke-dasharray="14 20" />
+    <path d="M160 60 L1040 700" stroke="#E2E8F0" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-dasharray="16 22" />
+    <path d="M360 20 L1120 660" stroke="#E2E8F0" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round" stroke-dasharray="16 22" />
+  </g>
+
+  <g transform="translate(160, 140)" filter="url(#shadowSoft)">
+    <rect width="420" height="440" rx="32" fill="url(#panelGradient)" />
+    <rect x="40" y="70" width="340" height="32" rx="12" fill="#EFF6FF" />
+    <rect x="40" y="126" width="340" height="32" rx="12" fill="#E2E8F0" />
+    <rect x="40" y="182" width="340" height="32" rx="12" fill="#E2E8F0" />
+    <rect x="40" y="238" width="340" height="32" rx="12" fill="#E2E8F0" />
+    <rect x="40" y="294" width="340" height="32" rx="12" fill="#E2E8F0" />
+    <rect x="40" y="350" width="220" height="32" rx="12" fill="#E2E8F0" />
+    <rect width="420" height="92" rx="32" fill="#DBEAFE" />
+    <circle cx="68" cy="46" r="12" fill="#2563EB" />
+    <circle cx="124" cy="46" r="12" fill="#0EA5E9" />
+    <circle cx="180" cy="46" r="12" fill="#22D3EE" />
+    <rect x="250" y="22" width="120" height="48" rx="16" fill="#1D4ED8" fill-opacity="0.12" />
+  </g>
+
+  <g transform="translate(620, 170)" filter="url(#shadowSoft)">
+    <rect width="380" height="360" rx="36" fill="url(#panelGradient)" />
+    <rect x="44" y="70" width="292" height="42" rx="14" fill="#FFFFFF" />
+    <rect x="44" y="136" width="292" height="42" rx="14" fill="#EFF6FF" />
+    <rect x="44" y="202" width="292" height="42" rx="14" fill="#E2E8F0" />
+    <rect x="44" y="268" width="292" height="42" rx="14" fill="#E2E8F0" />
+
+    <g transform="translate(70, 322)">
+      <rect width="14" height="84" rx="7" fill="#1D4ED8" />
+      <rect x="28" width="14" height="84" rx="7" fill="#2563EB" />
+      <rect x="56" width="14" height="84" rx="7" fill="#0EA5E9" />
+      <rect x="84" width="14" height="84" rx="7" fill="#22D3EE" />
+      <rect x="112" width="14" height="84" rx="7" fill="#1D4ED8" />
+      <rect x="140" width="14" height="84" rx="7" fill="#2563EB" />
+      <rect x="168" width="14" height="84" rx="7" fill="#0EA5E9" />
+      <rect x="196" width="14" height="84" rx="7" fill="#22D3EE" />
+      <rect x="224" width="14" height="84" rx="7" fill="#1D4ED8" />
+      <rect x="252" width="14" height="84" rx="7" fill="#2563EB" />
+    </g>
+  </g>
+
+  <g transform="translate(640, 140)">
+    <ellipse cx="230" cy="330" rx="180" ry="120" fill="url(#glowGradient)" />
+    <circle cx="230" cy="330" r="122" stroke="url(#cableGradient)" stroke-width="4" stroke-dasharray="16 14" />
+    <circle cx="230" cy="330" r="84" stroke="url(#cableGradient)" stroke-width="3" stroke-dasharray="12 12" stroke-opacity="0.6" />
+    <circle cx="230" cy="330" r="54" fill="#0EA5E9" fill-opacity="0.18" />
+    <circle cx="230" cy="330" r="34" fill="#FFFFFF" />
+    <circle cx="230" cy="330" r="20" fill="#1D4ED8" />
+    <circle cx="230" cy="330" r="10" fill="#93C5FD" />
+  </g>
+
+  <g stroke="url(#cableGradient)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+    <path d="M200 540C280 560 360 580 440 540" />
+    <path d="M200 580C300 620 420 620 540 560" />
+    <path d="M660 540C760 580 900 560 1000 520" />
+    <path d="M660 580C780 640 940 620 1040 560" />
+  </g>
+
+  <g>
+    <circle cx="440" cy="540" r="16" fill="url(#nodeGradient)" />
+    <circle cx="540" cy="560" r="14" fill="url(#nodeGradient)" />
+    <circle cx="660" cy="540" r="16" fill="url(#nodeGradient)" />
+    <circle cx="780" cy="580" r="14" fill="url(#nodeGradient)" />
+    <circle cx="1000" cy="520" r="18" fill="url(#nodeGradient)" />
+    <circle cx="1040" cy="560" r="16" fill="url(#nodeGradient)" />
+  </g>
+
+  <g opacity="0.45" stroke="#93C5FD" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 12">
+    <path d="M420 260C500 220 600 240 680 280" />
+    <path d="M420 320C520 280 640 300 720 360" />
+    <path d="M420 380C540 360 660 380 760 440" />
+  </g>
+
+  <g transform="translate(180, 620)">
+    <rect width="840" height="68" rx="28" fill="#FFFFFF" opacity="0.7" />
+    <rect x="48" y="24" width="744" height="24" rx="12" fill="#0EA5E9" opacity="0.35" />
+  </g>
+</svg>

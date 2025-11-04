@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="SOTI Logo Placeholder">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#0ea5e9" offset="0"/>
+      <stop stop-color="#0369a1" offset="1"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="16" fill="url(#g2)"/>
+  <g fill="#fff" opacity="0.95">
+    <rect x="28" y="28" width="72" height="52" rx="8"/>
+    <rect x="44" y="86" width="40" height="8" rx="4"/>
+  </g>
+</svg>
