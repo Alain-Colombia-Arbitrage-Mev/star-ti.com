@@ -9,6 +9,8 @@ import { ConversionFlow } from "@/components/sections/ConversionFlow";
 import { LogoCarousel } from "@/components/LogoCarousel";
 import { services, categories } from "@/data/services";
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   title: "STAR Solutions T.I. | Ciberseguridad y Consultoría ISO 27001 en Bogotá",
   description:

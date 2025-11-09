@@ -6,6 +6,8 @@ import { FloatingLeadMagnetBanner } from "@/components/FloatingLeadMagnetBanner"
 import { Button, Container, Card, Badge, Input } from "@/components/ui";
 import { isValidLanguage } from "@/config/i18n";
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   title: "Consultores ISO 27001 Certificados | Expertos en Ciberseguridad Empresarial",
   description:

@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   title: "Política de Privacidad | STAR Solutions T.I.",
   description: "Conoce cómo protegemos tu información personal."

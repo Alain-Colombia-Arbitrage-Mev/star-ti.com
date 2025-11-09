@@ -9,11 +9,12 @@ interface LangLayoutProps {
   params: Promise<{ lang: string }>;
 }
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return languages.map((lang) => ({ lang }));
-}
+// generateStaticParams removed for Cloudflare Pages compatibility
+// Cloudflare Pages will handle dynamic routes at runtime
+// export const dynamicParams = false;
+// export function generateStaticParams() {
+//   return languages.map((lang) => ({ lang }));
+// }
 
 export default async function LangLayout({ children, params }: LangLayoutProps) {
   const { lang } = await params;

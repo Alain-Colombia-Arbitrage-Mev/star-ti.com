@@ -9,6 +9,8 @@ import type { Service } from "@/data/services";
 import { ConversionFlow } from "@/components/sections/ConversionFlow";
 import { notFound } from "next/navigation";
 
+export const runtime = 'edge';
+
 const SUPPORTED_LANGUAGES = ["es", "en"] as const;
 type SupportedLanguage = (typeof SUPPORTED_LANGUAGES)[number];
 
@@ -327,14 +329,16 @@ const categoryConversionFlow: Record<Service["category"], ConversionFlowCopy> = 
   }
 };
 
-export async function generateStaticParams() {
-  return SUPPORTED_LANGUAGES.flatMap((lang) =>
-    services.map((service) => ({
-      lang,
-      slug: service.slug
-    }))
-  );
-}
+// generateStaticParams removed for Cloudflare Pages compatibility with edge runtime
+// Cloudflare Pages will handle dynamic routes at runtime
+// export async function generateStaticParams() {
+//   return SUPPORTED_LANGUAGES.flatMap((lang) =>
+//     services.map((service) => ({
+//       lang,
+//       slug: service.slug
+//     }))
+//   );
+// }
 
 export async function generateMetadata(
   { params }: ServicePageProps

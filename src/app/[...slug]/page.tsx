@@ -1,6 +1,8 @@
 import { redirect } from "next/navigation";
 import { defaultLanguage } from "@/config/i18n";
 
+export const runtime = 'edge';
+
 interface CatchAllProps {
   params: Promise<{ slug: string[] }>;
 }

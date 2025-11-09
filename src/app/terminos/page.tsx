@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   title: "Términos y Condiciones | STAR Solutions T.I.",
   description: "Lee nuestros términos y condiciones de uso."

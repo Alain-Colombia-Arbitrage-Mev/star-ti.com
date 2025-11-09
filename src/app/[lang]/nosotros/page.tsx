@@ -6,6 +6,8 @@ import { Footer } from "@/components/Footer";
 import { Button, Container, Card, Badge } from "@/components/ui";
 import { ConversionFlow } from "@/components/sections/ConversionFlow";
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   title: "Nosotros - Empresa Líder en Ciberseguridad | STAR Solutions T.I.",
   description: "Conoce STAR Solutions T.I., empresa con +15 años de experiencia en ciberseguridad, consultoría ISO 27001 y soluciones tecnológicas empresariales en Bogotá, Colombia. Equipo certificado y comprometido con la excelencia.",

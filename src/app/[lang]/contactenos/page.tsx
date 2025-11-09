@@ -8,6 +8,8 @@ import { Footer } from "@/components/Footer";
 import { Button, Container, Card, Badge, Input, Textarea } from "@/components/ui";
 import { ConversionFlow } from "@/components/sections/ConversionFlow";
 
+export const runtime = 'edge';
+
 export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: "",
