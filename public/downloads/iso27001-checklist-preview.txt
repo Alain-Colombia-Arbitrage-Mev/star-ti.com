@@ -1,0 +1,87 @@
+═══════════════════════════════════════════════════════════════════
+  CHECKLIST DE PREPARACIÓN ISO 27001 - STAR SOLUTIONS T.I.
+  68 Puntos de Verificación para tu Certificación
+═══════════════════════════════════════════════════════════════════
+
+Este es un archivo de VISTA PREVIA. 
+
+El checklist completo incluye:
+
+📋 CHECKLIST COMPLETO (68 PUNTOS)
+   ✓ Lista completa de 93 controles ISO 27001:2022
+   ✓ Guía de implementación paso a paso
+   ✓ Matriz de priorización por impacto
+   ✓ Plantilla de Gap Analysis editable (Excel)
+   ✓ Roadmap de implementación sugerido
+   ✓ Checklist de auditoría interna
+   ✓ Templates de políticas de seguridad
+
+📊 HERRAMIENTAS INCLUIDAS
+   ✓ Calculadora de esfuerzo estimado
+   ✓ Matriz de riesgos precargada
+   ✓ Ejemplos de declaraciones de aplicabilidad
+   ✓ Checklist de documentación requerida
+
+🎯 BONUS EXTRAS
+   ✓ Guía de mejores prácticas (32 páginas)
+   ✓ Webinar grabado: "Los 5 errores más comunes"
+   ✓ Acceso a comunidad privada de implementadores
+   ✓ 30 minutos de consulta gratuita
+
+═══════════════════════════════════════════════════════════════════
+PARA RECIBIR EL PAQUETE COMPLETO (GRATIS):
+═══════════════════════════════════════════════════════════════════
+
+Completa el formulario en:
+https://star-ti.com/es/consultores-iso27001#lead-magnet
+
+O contáctanos directamente:
+📧 iso27001@star-ti.com
+📞 +57 (300) 123-4567
+
+═══════════════════════════════════════════════════════════════════
+
+VISTA PREVIA DEL CONTENIDO:
+
+──────────────────────────────────────────────────────────────────
+FASE 1: CONTEXTO ORGANIZACIONAL
+──────────────────────────────────────────────────────────────────
+
+□ 1.1 Identificar partes interesadas internas y externas
+□ 1.2 Documentar requisitos de seguridad de clientes
+□ 1.3 Definir alcance del SGSI (procesos, ubicaciones)
+□ 1.4 Mapear activos críticos de información
+□ 1.5 Identificar requisitos legales aplicables
+
+──────────────────────────────────────────────────────────────────
+FASE 2: LIDERAZGO Y COMPROMISO
+──────────────────────────────────────────────────────────────────
+
+□ 2.1 Designar responsable del SGSI
+□ 2.2 Definir política de seguridad de la información
+□ 2.3 Establecer objetivos medibles de seguridad
+□ 2.4 Asignar roles y responsabilidades
+□ 2.5 Comunicar importancia del SGSI a toda la organización
+
+──────────────────────────────────────────────────────────────────
+FASE 3: PLANIFICACIÓN
+──────────────────────────────────────────────────────────────────
+
+□ 3.1 Realizar análisis de riesgos inicial
+□ 3.2 Definir criterios de aceptación de riesgos
+□ 3.3 Identificar amenazas y vulnerabilidades
+□ 3.4 Evaluar impacto y probabilidad
+□ 3.5 Seleccionar controles del Anexo A aplicables
+
+[... Continúa con 53 puntos más ...]
+
+═══════════════════════════════════════════════════════════════════
+
+DESCARGA EL PAQUETE COMPLETO AHORA (100% GRATIS)
+👉 https://star-ti.com/es/consultores-iso27001#lead-magnet
+
+═══════════════════════════════════════════════════════════════════
+© 2025 STAR Solutions T.I. | Todos los derechos reservados
+www.star-ti.com | iso27001@star-ti.com
+═══════════════════════════════════════════════════════════════════
+
