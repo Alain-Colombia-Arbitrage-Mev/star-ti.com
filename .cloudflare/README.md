@@ -7,6 +7,7 @@ Este proyecto está configurado para desplegarse en Cloudflare Pages.
 - **Build command:** `npm run pages:build`
 - **Output directory:** `.vercel/output/static`
 - **Node version:** 18 o superior
+- **Deploy command:** ⚠️ **NO CONFIGURAR** - Dejar vacío (Cloudflare Pages despliega automáticamente)
 
 ## Pasos para Desplegar
 
@@ -20,7 +21,22 @@ Este proyecto está configurado para desplegarse en Cloudflare Pages.
    - **Build command:** `npm run pages:build`
    - **Build output directory:** `.vercel/output/static`
    - **Root directory:** `/` (raíz del proyecto)
+   - **Deploy command:** ⚠️ **DEJAR VACÍO** (no configurar)
 6. Haz clic en **Save and Deploy**
+
+## ⚠️ IMPORTANTE: Deploy Command
+
+**NO configures un "Deploy command" en Cloudflare Pages.** 
+
+Cloudflare Pages automáticamente despliega el contenido del directorio de output después del build. Si configuras un comando de deploy personalizado, causará errores como:
+```
+✘ [ERROR] It looks like you've run a Workers-specific command in a Pages project.
+```
+
+**Solo necesitas:**
+- ✅ Build command: `npm run pages:build`
+- ✅ Output directory: `.vercel/output/static`
+- ❌ Deploy command: (vacío)
 
 ## Variables de Entorno
 
