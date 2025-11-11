@@ -8,6 +8,7 @@ Este proyecto está configurado para desplegarse en Cloudflare Pages.
 - **Output directory:** `.vercel/output/static`
 - **Node version:** 18 o superior
 - **Deploy command:** ⚠️ **NO CONFIGURAR** - Dejar vacío (Cloudflare Pages despliega automáticamente)
+- **Framework:** @cloudflare/next-on-pages (nota: deprecated pero funcional, migración a OpenNext pendiente)
 
 ## Pasos para Desplegar
 
@@ -37,6 +38,11 @@ Cloudflare Pages automáticamente despliega el contenido del directorio de outpu
 - ✅ Build command: `npm run pages:build`
 - ✅ Output directory: `.vercel/output/static`
 - ❌ Deploy command: (vacío)
+
+## Nota sobre @cloudflare/next-on-pages
+
+Este proyecto usa `@cloudflare/next-on-pages@1.13.16` que está deprecated pero sigue funcionando correctamente. 
+Cloudflare recomienda migrar a `@opennextjs/cloudflare` en el futuro, pero por ahora esta versión funciona sin problemas.
 
 ## Variables de Entorno
 
